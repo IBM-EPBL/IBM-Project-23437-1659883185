@@ -9,7 +9,7 @@ import pickle
 warnings.filterwarnings('ignore')
 from feature import FeatureExtraction
 
-file = open("model.pkl","rb")
+file = open("Phishing_Website.pkl","rb")
 gbc = pickle.load(file)
 file.close()
 
